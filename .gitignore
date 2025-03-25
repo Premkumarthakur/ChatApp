@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache & Build
+.cache/
+dist/
+build/
+out/
+.tmp/
+coverage/
+.vscode/
+
+# IDE / Editor specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+*.iml
+
+# Debugging files
+*.pid
+*.seed
+*.sqlite
+
+# Security & Secrets
+config.js
+secrets.json
